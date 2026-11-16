@@ -1,0 +1,43 @@
+body {
+    background-color: #1e293b;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.kartu {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 22px;
+}
+
+p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
